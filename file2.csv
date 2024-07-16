@@ -1,0 +1,11 @@
+feat_id,feat_name,model_feat_imp_train,feat_rank_train,feat_description
+1,win_ratio,0.18615101,1,ratio of team1 winning score ratio and team2 winning score ratio
+2,inning_runs/ball,0.14181802,2,ratio of runs scored in inning1 to runs scored in inning2
+3,team_bat_avg,0.09603202,3,ratio of team1 abt avg and team2 bat avg
+4,team_f_1,0.09431389,4,"ratio of aggregate score of team1's top 6 batsman, calculated using career stats of individual batsman with team1/team2"
+5,team1_to_team2_average_boundaries_to_balls_bowled_ratio,0.08995136,5,Ratio of team1 to team2 average boundaries to balls bowled
+6,team_f_2,0.08748847,6,"ratio of aggregate score of team1's top 4 bowlers, calculated using career stats of individual bowlers with team1/team2"
+7,team_winp_last5,0.081861466,7,Ratio of team1's win % to team2's win % in last 5 games
+8,team1_winp_team2_last15,0.07712454,8,Team1's win percentage against Team2 in last 15 games
+9,team_count_50runs_last15,0.07325433,9,Ratio of number of 50s by players in team1 to number of 50s by players in team2 in last 15 games
+10,toss_winner_01,0.07200488,10,"Toss winner to numerical - 1 if team2 wins, else 0"
